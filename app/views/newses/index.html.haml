@@ -1,0 +1,8 @@
+#blog_feed
+  - @news.each do |news|
+    %p
+      %span.news_title= link_to "#{news.name} >>", news.guid
+      %span.news_date= news.published_at
+      %span.news_summary= news.summary
+      %span.news_content= news.content
+      %span.news_url= news.url
