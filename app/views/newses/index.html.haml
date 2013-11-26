@@ -1,8 +1,13 @@
 #blog_feed
+  = will_paginate @news
   - @news.each do |news|
+    %h1.news_title= link_to "#{news.name}", news.url
     %p
-      %span.news_title= link_to "#{news.name} >>", news.guid
-      %span.news_date= news.published_at
-      %span.news_summary= news.summary
-      %span.news_content= news.content
+      %span.news_content!= news.content
+      =image_tag(news.thumbnail)
+      %p
       %span.news_url= news.url
+      %span.news_date= news.published_at
+      %script{charset: "utf-8", src: "//yandex.st/share/share.js", type: "text/javascript"}
+      .yashare-auto-init{"data-yasharel10n" => "ru", "data-yasharequickservices" => "yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,friendfeed,moikrug,gplus,surfingbird", "data-yasharetype" => "button"}
+= will_paginate @news

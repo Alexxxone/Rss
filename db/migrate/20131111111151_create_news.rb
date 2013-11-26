@@ -6,8 +6,9 @@ class CreateNews < ActiveRecord::Migration
       t.text :content
       t.string :url
       t.string :guid
+      t.string :image_url
+      t.string :thumbnail
       t.datetime :published_at
-
       t.timestamps
     end
   end

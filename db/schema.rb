@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 20131111111151) do
     t.text     "content"
     t.string   "url"
     t.string   "guid"
+    t.string   "image_url"
+    t.string   "thumbnail"
     t.datetime "published_at"
     t.datetime "created_at"
     t.datetime "updated_at"
