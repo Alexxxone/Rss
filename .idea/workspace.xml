@@ -4,8 +4,8 @@
     <list default="true" id="5dada03c-9532-4b40-93ed-33454fb7eb59" name="Default" comment="" />
     <ignored path="Rss_app.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html.haml" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385460118974" ignored="false" />
-    <file path="/news.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385455808957" ignored="false" />
+    <file path="/index.html.haml" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385558294364" ignored="false" />
+    <file path="/news.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385561884243" ignored="false" />
     <file path="/20131111111151_create_news.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385384753935" ignored="false" />
     <file path="/application_helper.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385037701297" ignored="false" />
     <file path="/production.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385039087418" ignored="false" />
@@ -13,6 +13,13 @@
     <file path="/newses_controller.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385464533164" ignored="false" />
     <file path="/environment.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385398116674" ignored="false" />
     <file path="/custom.css.scss" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385398611398" ignored="false" />
+    <file path="/20131126125248_add_link_href_columns_to_news.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385470418265" ignored="false" />
+    <file path="/feedzirra.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385561585707" ignored="false" />
+    <file path="/new.html.haml" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385478128464" ignored="false" />
+    <file path="/20131126150302_add_url_columns_to_news.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385478205149" ignored="false" />
+    <file path="/atom_entry.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385554054400" ignored="false" />
+    <file path="/fragment.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385559446491" ignored="false" />
+    <file path="/news_spec.rb" changelist="5dada03c-9532-4b40-93ed-33454fb7eb59" time="1385564506884" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,52 +42,43 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/newses/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="42" selection-start="599" selection-end="599" vertical-scroll-proportion="-7.5">
+            <state line="7" column="40" selection-start="210" selection-end="210" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newses.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/newses.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="1" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="news.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/news.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="90" selection-start="699" selection-end="699" vertical-scroll-proportion="0.5229358">
+            <state line="24" column="28" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/newses/show.html.haml">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="14" column="19" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/newses/new.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/models/news_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="2" selection-start="39" selection-end="39" vertical-scroll-proportion="0.041551247">
               <folding />
             </state>
           </provider>
@@ -89,34 +87,16 @@
       <file leaf-file-name="newses_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/newses_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+            <state line="19" column="20" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <file leaf-file-name="feedzirra.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/feedzirra.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="31" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="32" selection-start="2305" selection-end="2305" vertical-scroll-proportion="-6.4166665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newses_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/newses_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="45" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+            <state line="3" column="52" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,20 +112,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rss/gems/feedzirra-0.3.0/lib/feedzirra/parser/itunes_rss_item.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/newses/new.html.haml" />
-        <option value="$PROJECT_DIR$/db/migrate/20131111111151_create_news.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/feedzirra.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/newses_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/news.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131126125248_add_link_href_columns_to_news.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131111111151_create_news.rb" />
+        <option value="$PROJECT_DIR$/app/views/newses/new.html.haml" />
+        <option value="$PROJECT_DIR$/db/migrate/20131126150302_add_url_columns_to_news.rb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rss/gems/feedzirra-0.4.0/lib/feedzirra/parser/atom_entry.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/feedzirra.rb" />
         <option value="$PROJECT_DIR$/app/views/newses/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/news.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/models/news_spec.rb" />
       </list>
     </option>
   </component>
@@ -219,7 +201,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,7 +229,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,7 +243,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -272,18 +253,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.development">
     <configuration default="false" name="Rails console: Rss_app" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
@@ -522,11 +504,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2764543" sideWeight="0.62552303" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28242677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498615" sideWeight="0.42677826" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2797784" sideWeight="0.78556484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21443515" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2797784" sideWeight="0.28661087" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.374477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4079498" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -596,118 +578,118 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rss/gems/feedzirra-0.4.0/lib/feedzirra/parser/rss_entry.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131111111151_create_news.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rss/gems/feedzirra-0.4.0/lib/feedzirra/parser/itunes_rss_item.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rss/gems/feedzirra-0.4.0/lib/feedzirra/feed_entry_utilities.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rss/gems/feedzirra-0.4.0/lib/feedzirra/core_ext/time.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="1" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="31" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="32" selection-start="2305" selection-end="2305" vertical-scroll-proportion="-6.4166665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/newses.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rss/gems/feedzirra-0.4.0/lib/feedzirra/core_ext/string.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rss/gems/feedzirra-0.4.0/lib/feedzirra.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="180" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rss/gems/feedzirra-0.4.0/lib/feedzirra/feed.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="13" selection-start="3149" selection-end="3149" vertical-scroll-proportion="-3.3223965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rss/gems/sax-machine-0.2.1/lib/sax-machine/sax_document.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="0" selection-start="2853" selection-end="2853" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/feedzirra.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="52" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/newses_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/newses_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="45" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/newses/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/newses/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="19" column="20" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/newses/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="599" selection-end="599" vertical-scroll-proportion="-7.5">
+        <state line="7" column="40" selection-start="210" selection-end="210" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/newses_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="34" selection-start="102" selection-end="102" vertical-scroll-proportion="0.06232687">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/news.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="90" selection-start="699" selection-end="699" vertical-scroll-proportion="0.5229358">
+        <state line="24" column="28" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/news_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="39" selection-end="39" vertical-scroll-proportion="0.041551247">
           <folding />
         </state>
       </provider>

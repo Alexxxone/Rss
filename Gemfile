@@ -11,7 +11,9 @@ gem "twitter-bootstrap-rails"
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
-
+group :development, :test do
+  gem 'rspec-rails'
+end
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 gem 'feedzirra'

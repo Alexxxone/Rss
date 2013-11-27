@@ -1,7 +1,9 @@
 #blog_feed
   = will_paginate @news
   - @news.each do |news|
-    %h1.news_title= link_to "#{news.name}", news.url
+    %h1.news_title= link_to "#{news.name}", news.guid
+    %p
+      %span.news_link_href= news.link_href
     %p
       %span.news_content!= news.content
       =image_tag(news.thumbnail)

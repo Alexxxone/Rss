@@ -4,7 +4,6 @@ class CreateNews < ActiveRecord::Migration
       t.string :name
       t.text :summary
       t.text :content
-      t.string :url
       t.string :guid
       t.string :image_url
       t.string :thumbnail

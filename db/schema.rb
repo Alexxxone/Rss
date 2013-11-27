@@ -11,19 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131111111151) do
+ActiveRecord::Schema.define(version: 20131126150302) do
 
   create_table "news", force: true do |t|
     t.string   "name"
     t.text     "summary"
     t.text     "content"
-    t.string   "url"
     t.string   "guid"
     t.string   "image_url"
     t.string   "thumbnail"
     t.datetime "published_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "link_href"
+    t.string   "url"
   end
 
 end
