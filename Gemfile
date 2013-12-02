@@ -22,6 +22,14 @@ gem 'coffee-rails'
 gem 'haml'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+group :test do
+  gem "capybara", '2.1.0'
+  gem "rspec"
+  gem "rspec-rails"
+
+  gem 'factory_girl'
+  gem "shoulda-matchers"
+end
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -31,7 +39,7 @@ gem 'turbolinks'
 gem "paperclip"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
-
+gem 'selenium-webdriver'
 gem 'protected_attributes'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
